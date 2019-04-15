@@ -5,5 +5,5 @@ package com.gremlininc.failure;
  * @author forni
  */
 public interface Failure {
-    void apply();
+    void apply() throws Exception;
 }
